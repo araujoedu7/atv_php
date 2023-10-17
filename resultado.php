@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Seu resultado foi de:</h1>
+  <main>
+  <?php
+    $numero = $_GET["numero"];
+
+    echo "seu numero escolhdo foi de $numero <br/>";
+    echo " O seu antecessor é " . $numero - 1 ."<br/>";
+    echo " O seu sucessor é " . $numero + 1
+    ?>
+  </main>
+</body>
+
+</html>
